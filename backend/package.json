@@ -1,0 +1,11 @@
+{
+  "name": "bloggo-api",
+  "version": "1.0.0",
+  "description": "Bloggo social media server API",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jamey Bryce",
+  "license": "ISC"
+}

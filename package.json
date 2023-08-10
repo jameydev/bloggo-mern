@@ -1,0 +1,11 @@
+{
+  "name": "bloggo",
+  "version": "1.0.0",
+  "description": "Bloggo Twitter Clone Thing?",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jamey Bryce",
+  "license": "ISC"
+}
