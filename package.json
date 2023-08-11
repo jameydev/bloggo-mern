@@ -9,7 +9,9 @@
   "author": "Jamey Bryce",
   "license": "ISC",
   "dependencies": {
-    "dotenv": "^16.3.1"
+    "dotenv": "^16.3.1",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^9.0.1"
   },
   "devDependencies": {
     "nodemon": "^3.0.1"
