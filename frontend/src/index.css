@@ -11,6 +11,13 @@ body {
   text-align: center;
 }
 
+header {
+  background: radial-gradient(#1d1d1d, #fff);
+  color: #fff;
+  border-bottom: 1px solid #ddd;
+  padding: 20px;
+}
+
 li {
   list-style: none;
 }

@@ -1,11 +1,14 @@
+import Link from '../Link';
+import ListItem from '../ListItem';
+
 export default function Navbar(props) {
     return (
         <nav>
             <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="#">Profile</a></li>
-                <li><a href="#">Settings</a></li>
-                <li><a href="#">New Post</a></li>
+                <ListItem><Link href="/">Home</Link></ListItem>
+                <ListItem><Link href="/me">Profile</Link></ListItem>
+                <ListItem><Link href="/settings">Settings</Link></ListItem>
+                <ListItem><Link href="/new-post">New Post</Link></ListItem>
             </ul>
         </nav>
     );
