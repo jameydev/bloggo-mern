@@ -1,0 +1,22 @@
+.feed {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.feed h1 {
+  text-align: center;
+}
+
+.feed ul {
+  list-style: none;
+  padding: 0;
+}
+
+.feed li {
+  border-bottom: 1px solid #ccc;
+  padding: 20px;
+}
+
+.feed h2 {
+  margin: 0;
+}
