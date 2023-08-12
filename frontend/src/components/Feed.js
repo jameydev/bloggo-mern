@@ -25,7 +25,7 @@ export default function Feed() {
                 {posts.map((post) => (
                     <li key={post._id}>
                         <h2>{post.title}</h2>
-                        <p>{post.content}</p>
+                        <p>{post.body}</p>
                     </li>
                 ))}
             </ul>
