@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import './Feed.css';
+import styles from './Feed.module.css';
 
 export default function Feed() {
     const [posts, setPosts] = useState([]);
@@ -19,8 +19,7 @@ export default function Feed() {
     }, []);
 
     return (
-        <div className="feed">
-            <h1>Feed</h1>
+        <div className={styles.feed}>
             <ul>
                 {posts.map((post) => (
                     <li key={post._id}>
