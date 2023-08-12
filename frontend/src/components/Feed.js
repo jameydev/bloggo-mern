@@ -1,14 +1,18 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import 'Feed.css';
+import './Feed.css';
 
 export default function Feed() {
     const [posts, setPosts] = useState([]);
 
     useEffect(() => {
         const fetchPosts = async () => {
-            const res = await axios.get('/api/posts');
-            setPosts(res.data);
+            try {
+                const res = await axios.get('/api/posts');
+                setPosts(res.data);
+            } catch (err) {
+                console.error(`Error fetching posts': ${err}`);
+            }
         };
 
         fetchPosts();
