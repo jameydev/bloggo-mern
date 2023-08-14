@@ -1,6 +1,6 @@
 import Link from '../Link';
-import ListItem from '../ListItem';
-import List from '../List';
+import ListItem from '../List/ListItem';
+import List from '../List/List';
 
 export default function Navbar(props) {
     return (
